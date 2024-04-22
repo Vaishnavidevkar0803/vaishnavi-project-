@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="userName" value="monica geller"></parameter>
+	  <parameter name="emailId" value="mon@gmail.com"/>
+	  <parameter name="currentAddress" value="spain"/>
+	  <parameter name="permanentAddress" value="USA"></parameter>
+    <classes>
+      <class name="testngDataProvider_XML.Demosite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

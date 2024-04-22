@@ -1,6 +1,5 @@
 package selenium_use;
 
-import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +14,7 @@ public class Scroll_Down {
 		driver.get("https://www.naukri.com/");
 		JavascriptExecutor js = (JavascriptExecutor)driver;//casting
 		Thread.sleep(2000);
-		js.executeScript("window.scrollBy(0,700)");
+		js.executeScript("window.scrollBy(0,700)");//(x,y)
 		Thread.sleep(2000);
 		js.executeScript("window.scrollBy(0,2700)");
 		Thread.sleep(2000);

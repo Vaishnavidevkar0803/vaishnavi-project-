@@ -1,113 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="4" failed="2" skipped="2">
   <reporter-output>
     <line>
-      <![CDATA[launching the browser]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[clicking on female gender button]]>
+      <![CDATA[TC execution is failed]]>
     </line>
     <line>
-      <![CDATA[clicking on the next button]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[entering the member details ]]>
+      <![CDATA[tc1 is running]]>
     </line>
     <line>
-      <![CDATA[clicking on the next button]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[entering the pincode]]>
+      <![CDATA[tc4 is running]]>
     </line>
     <line>
-      <![CDATA[reading data from excel sheet]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[entering the mobile num]]>
+      <![CDATA[tc execution is skipped]]>
     </line>
     <line>
-      <![CDATA[reading data from excel sheet]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[TC execution started]]>
+      <![CDATA[tc6 is running]]>
     </line>
     <line>
-      <![CDATA[fetching the no.of policies from text]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[fetching the no. of policies count from the banner]]>
+      <![CDATA[tc7 is running]]>
     </line>
     <line>
-      <![CDATA[TC execution successfully completed ]]>
+      <![CDATA[tc execution started]]>
     </line>
     <line>
-      <![CDATA[closing the browser]]>
+      <![CDATA[TC execution is failed]]>
+    </line>
+    <line>
+      <![CDATA[tc execution started]]>
+    </line>
+    <line>
+      <![CDATA[tc execution is skipped]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-12T14:52:46 IST" name="Default suite" finished-at="2024-01-12T14:53:59 IST" duration-ms="72792">
+  <suite started-at="2024-04-02T08:06:33 IST" name="Suite" finished-at="2024-04-02T08:06:34 IST" duration-ms="362">
     <groups>
     </groups>
-    <test started-at="2024-01-12T14:52:46 IST" name="Default test" finished-at="2024-01-12T14:53:59 IST" duration-ms="72792">
-      <class name="CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult">
-        <test-method is-config="true" signature="launchBrowser1()[pri:0, instance:CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult@8317c52]" started-at="2024-01-12T14:52:47 IST" name="launchBrowser1" finished-at="2024-01-12T14:53:08 IST" duration-ms="21049" status="PASS">
+    <test started-at="2024-04-02T08:06:33 IST" name="Test" finished-at="2024-04-02T08:06:34 IST" duration-ms="362">
+      <class name="listeners.TestClass">
+        <test-method signature="TC2()[pri:0, instance:listeners.TestClass@217ed35e]" started-at="2024-04-02T08:06:33 IST" name="TC2" finished-at="2024-04-02T08:06:33 IST" duration-ms="22" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at listeners.TestClass.TC2(TestClass.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[launching the browser]]>
+              <![CDATA[tc execution started]]>
+            </line>
+            <line>
+              <![CDATA[TC execution is failed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- launchBrowser1 -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult@8317c52]" started-at="2024-01-12T14:53:08 IST" name="enterMemberDetails" finished-at="2024-01-12T14:53:40 IST" duration-ms="32357" status="PASS">
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC1()[pri:0, instance:listeners.TestClass@217ed35e]" started-at="2024-04-02T08:06:33 IST" name="TC1" finished-at="2024-04-02T08:06:33 IST" duration-ms="39" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[clicking on female gender button]]>
+              <![CDATA[tc execution started]]>
             </line>
             <line>
-              <![CDATA[clicking on the next button]]>
-            </line>
-            <line>
-              <![CDATA[entering the member details ]]>
-            </line>
-            <line>
-              <![CDATA[clicking on the next button]]>
-            </line>
-            <line>
-              <![CDATA[entering the pincode]]>
-            </line>
-            <line>
-              <![CDATA[reading data from excel sheet]]>
-            </line>
-            <line>
-              <![CDATA[entering the mobile num]]>
-            </line>
-            <line>
-              <![CDATA[reading data from excel sheet]]>
+              <![CDATA[tc1 is running]]>
             </line>
           </reporter-output>
-        </test-method> <!-- enterMemberDetails -->
-        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult@8317c52]" started-at="2024-01-12T14:53:40 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-12T14:53:52 IST" duration-ms="12264" status="PASS">
+        </test-method> <!-- TC1 -->
+        <test-method signature="tc4()[pri:0, instance:listeners.TestClass@217ed35e]" started-at="2024-04-02T08:06:33 IST" name="tc4" finished-at="2024-04-02T08:06:33 IST" duration-ms="11" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[TC execution started]]>
+              <![CDATA[tc execution started]]>
             </line>
             <line>
-              <![CDATA[fetching the no.of policies from text]]>
-            </line>
-            <line>
-              <![CDATA[fetching the no. of policies count from the banner]]>
-            </line>
-            <line>
-              <![CDATA[TC execution successfully completed ]]>
+              <![CDATA[tc4 is running]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validateTestPlansFromTextAndBanners -->
-        <test-method is-config="true" signature="closeBrowser1()[pri:0, instance:CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult@8317c52]" started-at="2024-01-12T14:53:52 IST" name="closeBrowser1" finished-at="2024-01-12T14:53:59 IST" duration-ms="6903" status="PASS">
+        </test-method> <!-- tc4 -->
+        <test-method signature="TC3()[pri:0, instance:listeners.TestClass@217ed35e]" started-at="2024-04-02T08:06:33 IST" name="TC3" finished-at="2024-04-02T08:06:33 IST" depends-on-methods="listeners.TestClass.TC2" duration-ms="4" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method listeners.TestClass.TC3() on instance listeners.TestClass@217ed35e depends on not successfully finished methods 
+[listeners.TestClass.TC2() on instance listeners.TestClass@217ed35e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method listeners.TestClass.TC3() on instance listeners.TestClass@217ed35e depends on not successfully finished methods 
+[listeners.TestClass.TC2() on instance listeners.TestClass@217ed35e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
             <line>
-              <![CDATA[closing the browser]]>
+              <![CDATA[tc execution is skipped]]>
             </line>
           </reporter-output>
-        </test-method> <!-- closeBrowser1 -->
-      </class> <!-- CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TC3 -->
+      </class> <!-- listeners.TestClass -->
+      <class name="listeners.TestClass2">
+        <test-method signature="TC6()[pri:0, instance:listeners.TestClass2@3eb738bb]" started-at="2024-04-02T08:06:33 IST" name="TC6" finished-at="2024-04-02T08:06:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc execution started]]>
+            </line>
+            <line>
+              <![CDATA[tc6 is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method signature="tc7()[pri:0, instance:listeners.TestClass2@3eb738bb]" started-at="2024-04-02T08:06:33 IST" name="tc7" finished-at="2024-04-02T08:06:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc execution started]]>
+            </line>
+            <line>
+              <![CDATA[tc7 is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+        <test-method signature="tc8()[pri:0, instance:listeners.TestClass2@3eb738bb]" started-at="2024-04-02T08:06:33 IST" name="tc8" finished-at="2024-04-02T08:06:33 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at listeners.TestClass2.tc8(TestClass2.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[tc execution started]]>
+            </line>
+            <line>
+              <![CDATA[TC execution is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc8 -->
+        <test-method signature="TC5()[pri:0, instance:listeners.TestClass2@3eb738bb]" started-at="2024-04-02T08:06:33 IST" name="TC5" finished-at="2024-04-02T08:06:33 IST" depends-on-methods="listeners.TestClass2.tc8" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method listeners.TestClass2.TC5() on instance listeners.TestClass2@3eb738bb depends on not successfully finished methods 
+[listeners.TestClass2.tc8() on instance listeners.TestClass2@3eb738bb]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method listeners.TestClass2.TC5() on instance listeners.TestClass2@3eb738bb depends on not successfully finished methods 
+[listeners.TestClass2.tc8() on instance listeners.TestClass2@3eb738bb]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[tc execution is skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+      </class> <!-- listeners.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

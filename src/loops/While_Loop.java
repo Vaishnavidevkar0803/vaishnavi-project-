@@ -3,7 +3,7 @@ package loops;
 public class While_Loop {
 
 	public static void main(String[] args) {
-		
+		//if the no. of iteration is not fixed
 		int a=10;//intitalization
 		while(a<=100)//condition
 		{

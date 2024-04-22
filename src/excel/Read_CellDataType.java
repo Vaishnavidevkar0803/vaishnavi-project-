@@ -35,6 +35,7 @@ public class Read_CellDataType {
 					String stringvalue = getsheet.getRow(i).getCell(j).getStringCellValue();
 					System.out.print(stringvalue+" ");
 				}
+				
 				else if (celldatatype==CellType.NUMERIC)
 				{
 					double numvalue = getsheet.getRow(i).getCell(j).getNumericCellValue();
@@ -46,6 +47,7 @@ public class Read_CellDataType {
 					System.out.print(booleanvalue+" ");
 				}
 			}
+			System.out.println();
 		}
 	}
 

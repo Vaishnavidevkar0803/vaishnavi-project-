@@ -15,7 +15,7 @@ public class KeyBoardAction {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(1000);
-		//1st click on the create new ac 
+		//1st click on the create new account
 		driver.findElement(By.xpath("//a[@rel='async']")).click();
 		Thread.sleep(2000);
 		//find the locator of birthday month & store the value in refernce variable and create the local variable 

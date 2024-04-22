@@ -50,5 +50,30 @@ public class Cursor {
 		}
 
 	}
+	//Cursors in Collection
+	
+//	1. Iterator
+//	All the collection object  --> Universal curser
+//	Using Enumeration and iterator we can traverse collection object only in forward 
+	//direction not a backward --> Single directional cursor
+//	By using iterator we can perform only read and remove operations and we can not
+	//perform replace and addition of new object.
+	
+	
+//	2. list Iterator 
+//	Only applicable for list interface type implementation classes  --> not universal
+	//curser
+//	Using list iterator we can traverse a List in forward direction and backward
+	//direction--> bidirectional cursor
+//	By using list Iterator we can perform read, remove, replace and addition of new 
+	//object operations.
+	
+	
+//	3. Enumeration 
+//	Only applicable for legacy classes and hence it is not a universal cursor.
+//	Using Enumeration and iterator we can traverse collection object only in forward 
+	//direction not a backward --> Single directional cursor
+//	By using enumeration we can get only read access.
+
 
 }

@@ -82,16 +82,18 @@ public class String_Methods {
 		System.out.println(i.startsWith("bea"));
 		System.out.println("-----------------------");
 		System.out.println(i.startsWith("bea", 0));
-		System.out.println("------------------");
+		System.out.println("------------------");//case sensitive
 		
-		//substring
+		//substring-->Returns a string that is a substring of this string. 
+		//Thesubstring begins with the character
+		//at the specified index and extends to the end of this string. 
 		String j="vaish devkar prabha";
 		System.out.println(j.substring(9));
 		System.out.println(j.substring(0, 6));
 		System.out.println(j.subSequence(0, 18));
 		System.out.println("------------------");
 		
-		////concat
+		////concat-->joins the 2 strings 
 		String j1="vaishnavi";
 		String j2="gaurav";
 		System.out.println(j1.concat(" ").concat(j2));
@@ -112,7 +114,22 @@ public class String_Methods {
 		String z="india";
 		System.out.println(z.replace('i', 'I'));
 		System.out.println(z.replaceFirst("i", "I"));
+		System.out.println("----------------------");
 	
+		//split -->??????????????????????????????????
+		String z1="sahil";
+		String z2=" ";
+		String[] output=z1.split(z2);
+		System.out.println(output[0]);
+		
+		String mystring="Good Morning";
+		String s=" ";
+		String[] output2=mystring.split(s);
+		System.out.println(output2[5]);
+		
+
+		
+
 		
 		
 	}

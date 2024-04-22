@@ -1,6 +1,5 @@
 package selenium_use;
 
-import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +12,7 @@ public class ScrollingEg1 {
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
 		driver.get("https://www.facebook.com/");
-		JavascriptExecutor js=(JavascriptExecutor)driver;//typecasting
+		JavascriptExecutor js=(JavascriptExecutor)driver;//typecasting diver into JavascriptExecutor
 		Thread.sleep(1000);
 		 js.executeScript("window.scrollBy(0,1000)");
 		 

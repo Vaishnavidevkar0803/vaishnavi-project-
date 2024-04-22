@@ -7,7 +7,7 @@ public class Over_Riding
 	{
 		Daughter d=new Daughter();
 		d.kitchen();
-		d.look();
+		d.looks();
 		d.looks();
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		d.recepie();

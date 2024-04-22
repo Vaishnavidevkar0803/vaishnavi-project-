@@ -17,8 +17,9 @@ public class NoAlertTest {
 		alt.dismiss();
 		//NoAlertPresentException: no such alert
 		//there was a notification and tried to handle it as a alert popup 
-		//get this exception when there is no alert popup still without recongnizing the popup u tried to hanle it as a
-		//alert popup
+		//get this exception when there is no alert popup still without recongnizing
+		//the popup u tried to hanle it as a alert popup
+		
 
 	}
 

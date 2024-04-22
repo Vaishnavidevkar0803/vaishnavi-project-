@@ -83,7 +83,7 @@ public class CF_TC_55_ValidateSearchResultAndActualResult extends BaseClass
 		Reporter.log("fetching the no. of policies count from the banner", true);
 		int testResultFromBanner = resultPage.numOfPlansOnTheBanner();
 		Thread.sleep(2000);
-		Assert.assertEquals(textResult,testResultFromBanner ,"text result is equal to the banner result,TC is failed");
+		Assert.assertEquals(textResult,testResultFromBanner ,"text result is not equal to the banner result,TC is failed");
 		
 		//if the tc passed 
 //		Reporter.log("textresult is equal to the bannerResult ,TC is passed", true);

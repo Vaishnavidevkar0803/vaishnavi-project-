@@ -5,7 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(listeners.Listerner.class)
+@Listeners(listeners.Listner.class)
 public class MyClass {
   @Test
   public void e()

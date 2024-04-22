@@ -13,7 +13,9 @@ public class GetSize {
 		Thread.sleep(1000);
 		Dimension defaultSize = driver.manage().window().getSize();
 		Thread.sleep(1000);
+		
 		System.out.println(defaultSize);//(1050,708)=(width height)
+		
 		Dimension d= new Dimension(100, 708);
 		driver.manage().window().setSize(d);
 	}

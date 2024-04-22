@@ -3,7 +3,7 @@ package polymorphism;
 public class Daughter extends Mother
 
 {
-	public void look()
+	public void looks()
 	{
 		System.out.println("daughters having western looks");
 	}

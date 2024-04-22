@@ -1,4 +1,4 @@
-package sceenshots;
+package selenium_use_sceenshots;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class ScreenShots {
 				//For Test proof
 				//TakeScreeenShot Is A Different Interface
 				//GetScreeenShotAs(); Is a method in Interface
-				//TSS is a separate Interface So need to Cast with Webdriver.
+				//TSS is a separate Interface So need to Cast with driver.
 				
 				//Type Cast???Casting Concept
 				/*
@@ -39,9 +39,9 @@ public class ScreenShots {
 			    //To place @ desired place
 //		        RandomString rs= new RandomString();
 //		        String rs1 = rs.make(3);
-				RandomString rs =new RandomString();
+				//RandomString rs =new RandomString();
 				
-		        String rs1 = rs.make(4);//gs43
+		        String rs1 = RandomString.make(4);//gs43
 		        
 		        String timeStamp=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date());
 				System.out.println(timeStamp);

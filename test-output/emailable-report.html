@@ -8,11 +8,30 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">72,792</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">362</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult</td><td><a href="#m0">validateTestPlansFromTextAndBanners</a></td><td rowspan="1">1705051420575</td><td rowspan="1">12264</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">listeners.TestClass</td><td><a href="#m0">TC2</a></td><td rowspan="1">1712025393791</td><td rowspan="1">22</td></tr><tr class="failedodd"><td rowspan="1">listeners.TestClass2</td><td><a href="#m1">tc8</a></td><td rowspan="1">1712025393979</td><td rowspan="1">6</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">listeners.TestClass</td><td><a href="#m2">TC3</a></td><td rowspan="1">1712025393943</td><td rowspan="1">4</td></tr><tr class="skippedodd"><td rowspan="1">listeners.TestClass2</td><td><a href="#m3">TC5</a></td><td rowspan="1">1712025393997</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">listeners.TestClass</td><td><a href="#m4">TC1</a></td><td rowspan="1">1712025393856</td><td rowspan="1">39</td></tr><tr class="passedeven"><td><a href="#m5">tc4</a></td><td rowspan="1">1712025393910</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="2">listeners.TestClass2</td><td><a href="#m6">TC6</a></td><td rowspan="1">1712025393960</td><td rowspan="1">3</td></tr><tr class="passedodd"><td><a href="#m7">tc7</a></td><td rowspan="1">1712025393968</td><td rowspan="1">7</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">CoverFox_Test.CF_TC_55_ValidateSearchResultAndActualResult#validateTestPlansFromTextAndBanners</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TC execution started<br/>fetching the no.of policies from text<br/>fetching the no. of policies count from the banner<br/>TC execution successfully completed </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">listeners.TestClass#TC2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>TC execution is failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at listeners.TestClass.TC2(TestClass.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">listeners.TestClass2#tc8</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>TC execution is failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at listeners.TestClass2.tc8(TestClass2.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">listeners.TestClass#TC3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution is skipped</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method listeners.TestClass.TC3() on instance listeners.TestClass@217ed35e depends on not successfully finished methods 
+[listeners.TestClass.TC2() on instance listeners.TestClass@217ed35e]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">listeners.TestClass2#TC5</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution is skipped</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method listeners.TestClass2.TC5() on instance listeners.TestClass2@3eb738bb depends on not successfully finished methods 
+[listeners.TestClass2.tc8() on instance listeners.TestClass2@3eb738bb]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">listeners.TestClass#TC1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>tc1 is running</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">listeners.TestClass#tc4</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>tc4 is running</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">listeners.TestClass2#TC6</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>tc6 is running</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">listeners.TestClass2#tc7</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">tc execution started<br/>tc7 is running</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

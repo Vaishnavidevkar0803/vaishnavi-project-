@@ -24,7 +24,8 @@ public class Super_keyword extends This_Use {
 		System.out.println("my name is "+super.name);
 		System.out.println("my birthdate is "+super.birthdate);
 System.out.println("........................");
-
+        System.out.println("calling the global variable from another class"+super.height);//calling
+        //global variable from another class using super keyword
 
 
 		

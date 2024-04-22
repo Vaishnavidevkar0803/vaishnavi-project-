@@ -16,10 +16,10 @@ public class TotalNo_Of_RowsAndColums {
 		Workbook mybook = WorkbookFactory.create(myfile);
 		Sheet getsheet = mybook.getSheet("Sheet2");
 		int totalrows = getsheet.getLastRowNum();
-		System.out.println(totalrows);
+		System.out.println(totalrows+1);
 		
-		short totalcells = getsheet.getRow(totalrows).getLastCellNum();
-		System.out.println(totalcells);//error????
+		int totalcells = getsheet.getRow(0).getLastCellNum();
+		System.out.println(totalcells);
 	}
 
 }

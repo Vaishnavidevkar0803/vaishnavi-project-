@@ -24,7 +24,6 @@ public class ListenerCoverFox extends BaseClass implements ITestListener
 		try {
 			CoverFoxUtilityClass.takescreenshot(driver, result.getName());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
